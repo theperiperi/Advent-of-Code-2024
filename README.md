@@ -68,13 +68,6 @@ Running day3/part2.py...
 [Output of part2]
 ```
 
-## Contribution
-
-Feel free to:
-- Add solutions for any missing days.
-- Optimize existing solutions.
-- Submit pull requests or issues for improvements.
-
 ## License
 
 This project is distributed under the MIT License. See `LICENSE` for details.

@@ -38,5 +38,5 @@ def part1(puzzle_input):
     # Calculate result
     return sum(i*c for i,c in enumerate(FINAL) if c is not None)
 
-puzzle_input = open('day9/input.txt', 'r').read()
+puzzle_input = open(r'day9/input.txt', 'r').read()
 print(part1(puzzle_input))

@@ -31,5 +31,5 @@ def solve_part1(behaviours):
 
     return int(total)
 
-puzzle_input = parse_input(r"day13\input.txt")
+puzzle_input = parse_input(r'day13/input.txt')
 print(solve_part1(puzzle_input))

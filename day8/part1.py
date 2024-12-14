@@ -1,11 +1,6 @@
-input_file='day8/input.txt'
-with open(input_file, 'r') as file:
-    input_str = file.read()
-    
-input = input_str.split("\n")
-input = [list(i) for i in input]
-n, m = len(input), len(input[0])
-output = [['.' for i in range(len(input[j]))] for j in range(len(input))]
+puzzle_input = open(r'day8/input.txt', 'r').read()
+n, m = len(puzzle_input), len(puzzle_input[0])
+output = [['.' for i in range(len(puzzle_input[j]))] for j in range(len(puzzle_input))]
 
 chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789"
 
@@ -61,5 +56,4 @@ def part1(puzzle_input):
     return sum(row.count('#') for row in output)
 
 # Read input file and run solution
-puzzle_input = open('day8/input.txt', 'r').read()
 print(part1(puzzle_input))

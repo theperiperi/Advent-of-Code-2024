@@ -7,6 +7,6 @@ def part1(input_file):
     # Return the count of sequences that are safe
     return sum(is_safe_sequence(sequence) for sequence in input)
 
-input_file = r"Advent-of-Code-2024/day2/input.txt"
+input_file = r"day2/input.txt"
 print(part1(input_file))
 

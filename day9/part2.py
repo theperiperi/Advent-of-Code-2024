@@ -38,6 +38,6 @@ def part2(puzzle_input):
     # Calculate result
     return sum(i*c for i,c in enumerate(FINAL) if c is not None)
 
-infile = r'day9\input.txt'
+infile = r'day9/input.txt'
 input = open(infile).read().strip()
 print(part2(input))

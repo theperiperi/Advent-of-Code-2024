@@ -7,5 +7,5 @@ def part2(input_file):
     freq = Counter(right)
     return (sum(num * freq[num] for num in left))
 
-input_file=r"Advent-of-Code-2024/day1/input.txt"
+input_file=r"day1/input.txt"
 print(part2(input_file))

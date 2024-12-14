@@ -39,11 +39,11 @@ def run_scripts_for_day(day_number):
 
     # Execute part1.py
     print(f"Running {part1_script}...")
-    subprocess.run(["python", part1_script], check=True)
+    subprocess.run(["python3", part1_script], check=True)
 
     # Execute part2.py
     print(f"Running {part2_script}...")
-    subprocess.run(["python", part2_script], check=True)
+    subprocess.run(["python3", part2_script], check=True)
 
 
 if __name__ == "__main__":

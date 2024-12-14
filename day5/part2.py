@@ -90,7 +90,7 @@ def part2(input_text):
             total += find_middle_page(corrected_update)
     return total
 
-filename = r'day5\input.txt'
+filename = r'day5/input.txt'
 input_text = open(filename, 'r').read()
 result = part2(input_text)
 print(result)

@@ -24,5 +24,5 @@ def part2(puzzle_input):
         all_rock_count = new_counts
     return sum(all_rock_count.values())
 
-puzzle_input = open('day11/input.txt', 'r').read()
+puzzle_input = open(r'day11/input.txt', 'r').read()
 print(part2(puzzle_input))

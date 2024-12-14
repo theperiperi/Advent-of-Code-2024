@@ -33,6 +33,6 @@ def part2(file_path):
 
     return total_sum
 
-file_path = r'day3\input.txt'
+file_path = r'day3/input.txt'
 result = part2(file_path)
 print(result)

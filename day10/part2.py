@@ -36,5 +36,5 @@ def part2(puzzle_input):
     _, p2 = map(sum, zip(*(get_score_and_rating(grid, p) for p in trailheads)))
     return p2
 
-puzzle_input = open('day10/input.txt', 'r').read()
+puzzle_input = open(r'day10/input.txt', 'r').read()
 print(part2(puzzle_input))

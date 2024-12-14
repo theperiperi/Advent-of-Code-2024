@@ -61,6 +61,6 @@ def part1(input_text):
     
     return total
 
-input_text = open('day5/input.txt', 'r').read()
+input_text = open(r'day5/input.txt', 'r').read()
 result= part1(input_text)
 print(result)

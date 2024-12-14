@@ -1,6 +1,6 @@
 def part2():
     grid = []
-    with open('day12/input.txt', 'r') as f:
+    with open(r'day12/input.txt', 'r') as f:
         for row in f.read().rstrip().split("\n"):
             grid.append(list(row))
 

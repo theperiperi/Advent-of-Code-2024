@@ -1,5 +1,3 @@
-puzzle_input = open(r'day15/input.txt', 'r').read()
-
 def addt(x, y):
 	if len(x) == 2:
 		return (x[0] + y[0], x[1] + y[1])
@@ -75,7 +73,6 @@ def part2(puzzle_input):
 
 	# Process moves
 	for move in moves:
-		# Validate box positions
 		for box in boxes:
 			assert right(box) not in boxes
 			assert right(box) not in walls
@@ -102,5 +99,5 @@ def part2(puzzle_input):
 	# Calculate final score
 	return sum(100 * box[0] + box[1] for box in boxes)
 
-# Run solution
+puzzle_input = open(r'day15/input.txt', 'r').read()
 print(part2(puzzle_input))

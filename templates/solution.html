@@ -28,7 +28,7 @@
         .back-link:hover {
             background-color: #2980b9;
         }
-        .writeup {
+        .readme {
             margin: 20px 0;
             line-height: 1.6;
         }
@@ -47,8 +47,8 @@
     <a href="{{ url_for('index') }}" class="back-link">← Back to Index</a>
     <div class="solution-card">
         <h1>Day {{ day }} - Part {{ part }}</h1>
-        <div class="writeup">
-            {{ writeup | safe }}
+        <div class="readme">
+            {{ readme | safe }}
         </div>
     </div>
 </body>

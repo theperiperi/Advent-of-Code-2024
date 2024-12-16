@@ -21,21 +21,28 @@ def index():
 @app.route('/day/<int:day>/part/<int:part>')
 def run_solution(day, part):
     try:
-        # Look for readme file
-        readme_path = f'day{day:02d}/part{part}/readme.md'
+        # Look for writeup file instead of README.md
+        writeup_path = f'day{day:02d}/part{part}/writeup.txt'
         
-        if os.path.exists(readme_path):
-            # Read and convert markdown to HTML
-            with open(readme_path, 'r') as f:
-                readme_content = f.read()
-            html_content = markdown2.markdown(readme_content)
+        if os.path.exists(writeup_path):
+            # Read the content of writeup.txt
+            with open(writeup_path, 'r') as f:
+                writeup_content = f.read()
+            
+            # Replace line breaks with Markdown line breaks
+            # This ensures that paragraphs are separated correctly
+            writeup_content = writeup_content.replace('\n\n', '\n\n')  # Double line breaks for paragraphs
+            writeup_content = writeup_content.replace('\n', '  \n')  # Single line breaks for line breaks in Markdown
+            
+            # Convert the modified content to HTML
+            writeup_html = markdown2.markdown(writeup_content)
         else:
-            html_content = "No readme available for this solution yet."
+            writeup_html = "No writeup available for this solution yet."
         
         return render_template('solution.html', 
-                             day=day, 
-                             part=part, 
-                             readme=html_content)
+                               day=day, 
+                               part=part, 
+                               readme=writeup_html)  # Pass the HTML content
     except Exception as e:
         print(f"Error: {str(e)}")  # Add debug output
         return render_template('error.html', error=str(e))

@@ -1,4 +1,4 @@
-# Ignore all markdown files in the root directory
+# Ignore the README.md in the root directory
 README.md
 
 # Ignore all other markdown files by default

@@ -43,7 +43,6 @@ def run_solution(day, part):
 if __name__ == '__main__':
     print("Starting Flask server...")  # Add debug output
     app.run(
-        debug=True,
         host='0.0.0.0',  # Allow all incoming connections
         port=5000,       # Use port 5000
         threaded=True    # Enable threading

@@ -20,16 +20,26 @@
             margin: 15px 0;
             box-shadow: 0 2px 8px rgba(0,0,0,0.1);
             transition: transform 0.2s;
-            background: linear-gradient(135deg, #ffffff 85%, #146B3A 85%);
             border: 1px solid #eaeaea;
             position: relative;
+            background: linear-gradient(135deg,
+                #ffffff 0%,
+                #ffffff 40%,
+                #146B3A 40%,
+                #146B3A 100%
+            );
         }
         .day-card:hover {
             transform: translateY(-2px);
             box-shadow: 0 4px 12px rgba(0,0,0,0.15);
         }
         .day-card:nth-child(even) {
-            background: linear-gradient(135deg, #ffffff 85%, #BB2528 85%);
+            background: linear-gradient(135deg,
+                #ffffff 0%,
+                #ffffff 40%,
+                #BB2528 40%,
+                #BB2528 100%
+            );
         }
         h1 {
             color: #222;
@@ -77,6 +87,18 @@
             background-color: #BB2528;
             transform: translateY(-2px);
             box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+        .day-card h2 {
+            position: relative;
+            z-index: 1;
+            background: rgba(255, 255, 255, 0.9);
+            display: inline-block;
+            padding: 5px 10px;
+            border-radius: 4px;
+        }
+        .buttons-container {
+            position: relative;
+            z-index: 1;
         }
     </style>
 </head>

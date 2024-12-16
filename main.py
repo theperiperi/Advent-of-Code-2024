@@ -1,10 +1,9 @@
-from flask import Flask, render_template
 import os
+from flask import Flask, render_template
 import markdown2
 
-app = Flask(__name__, 
-           static_folder='static',  # Add static folder support
-           template_folder='templates')  # Explicitly set template folder
+template_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), 'templates'))
+app = Flask(__name__, template_folder=template_dir)
 
 def get_available_days():
     days = []

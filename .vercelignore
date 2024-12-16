@@ -1,0 +1,36 @@
+# Ignore all markdown files in the root directory
+README.md
+
+# Ignore all other markdown files by default
+*.md
+
+# Include all README.md files in subdirectories
+!**/README.md
+
+# Ignore all Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore all log files
+*.log
+
+# Ignore all temporary files
+*.tmp
+*.temp
+
+# Ignore all environment files
+.env
+.venv
+
+# Ignore all directories that start with a dot (hidden directories)
+.*
+
+# Ignore all files in the 'tests' directory
+tests/
+
+# Ignore all files in the 'node_modules' directory (if using Node.js)
+node_modules/
+
+# Ignore all files in the 'build' directory (if applicable)
+build/

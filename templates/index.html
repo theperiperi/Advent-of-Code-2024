@@ -4,22 +4,43 @@
     <title>Advent of Code 2024 Writeups</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Arial', sans-serif;
             max-width: 800px;
             margin: 0 auto;
             padding: 20px;
-            background-color: #f5f5f5;
+            background-color: #fafafa;
+            background-image: linear-gradient(#ffffff80 2px, transparent 2px),
+                            linear-gradient(90deg, #ffffff80 2px, transparent 2px);
+            background-size: 30px 30px;
         }
         .day-card {
             background-color: white;
             border-radius: 8px;
-            padding: 15px;
-            margin: 10px 0;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            padding: 20px;
+            margin: 15px 0;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            transition: transform 0.2s;
+            background: linear-gradient(135deg, #ffffff 85%, #146B3A 85%);
+            border: 1px solid #eaeaea;
+        }
+        .day-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        }
+        .day-card:nth-child(even) {
+            background: linear-gradient(135deg, #ffffff 85%, #BB2528 85%);
         }
         h1 {
-            color: #2c3e50;
+            color: #222;
             text-align: center;
+            font-size: 2em;
+            margin: 30px 0;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #222;
+            margin: 0 0 15px 0;
+            font-size: 1.5em;
         }
         .part-link {
             display: inline-block;
@@ -29,20 +50,34 @@
             color: white;
             text-decoration: none;
             border-radius: 4px;
-            transition: background-color 0.2s;
+            transition: all 0.2s;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.2);
         }
         .part-link:hover {
             background-color: #444;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+        .buttons-container {
+            display: flex;
+            gap: 10px;
+        }
+        /* Festive decoration for the title */
+        h1::before, h1::after {
+            content: "🎄";
+            margin: 0 15px;
         }
     </style>
 </head>
 <body>
-    <h1>Advent of Code Solutions</h1>
+    <h1>Advent of Code 2024 Writeups</h1>
     {% for day in days %}
     <div class="day-card">
         <h2>Day {{ day }}</h2>
-        <a href="{{ url_for('run_solution', day=day, part=1) }}" class="part-link">Part 1</a>
-        <a href="{{ url_for('run_solution', day=day, part=2) }}" class="part-link">Part 2</a>
+        <div class="buttons-container">
+            <a href="{{ url_for('run_solution', day=day, part=1) }}" class="part-link">Part 1</a>
+            <a href="{{ url_for('run_solution', day=day, part=2) }}" class="part-link">Part 2</a>
+        </div>
     </div>
     {% endfor %}
 </body>

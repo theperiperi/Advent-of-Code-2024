@@ -4,46 +4,55 @@
     <title>Day {{ day }} Part {{ part }} - Solution</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Arial', sans-serif;
             max-width: 800px;
             margin: 0 auto;
             padding: 20px;
-            background-color: #f5f5f5;
+            background-color: #fafafa;
+            background-image: linear-gradient(#ffffff80 2px, transparent 2px),
+                            linear-gradient(90deg, #ffffff80 2px, transparent 2px);
+            background-size: 30px 30px;
         }
         .solution-card {
             background-color: white;
             border-radius: 8px;
             padding: 20px;
             margin: 20px 0;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            border: 2px solid #146B3A;
         }
         .back-link {
             display: inline-block;
             padding: 10px 20px;
-            background-color: #222;
+            background-color: #146B3A;
             color: white;
             text-decoration: none;
             border-radius: 4px;
-            transition: background-color 0.2s;
+            transition: all 0.2s;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.2);
         }
         .back-link:hover {
-            background-color: #444;
+            background-color: #BB2528;
+            transform: translateY(-2px);
         }
         .readme {
             margin: 20px 0;
             line-height: 1.6;
+            color: #222;
         }
         pre {
             white-space: pre-wrap;
             word-wrap: break-word;
-            background-color: #f8f8f8;
+            background-color: #F8F9FA;
             padding: 15px;
             border-radius: 4px;
+            border-left: 4px solid #146B3A;
         }
         code {
-            background-color: #f0f0f0;
+            background-color: #F8F9FA;
             padding: 2px 4px;
             border-radius: 3px;
+            color: #146B3A;
         }
     </style>
 </head>

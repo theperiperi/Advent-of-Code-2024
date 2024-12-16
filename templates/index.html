@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Advent of Code Solutions</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f0f0f0;
+        }
+        .day-card {
+            background-color: white;
+            border-radius: 8px;
+            padding: 15px;
+            margin: 10px 0;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+        }
+        .part-link {
+            display: inline-block;
+            padding: 5px 15px;
+            margin: 5px;
+            background-color: #3498db;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+        }
+        .part-link:hover {
+            background-color: #2980b9;
+        }
+    </style>
+</head>
+<body>
+    <h1>Advent of Code Solutions</h1>
+    {% for day in days %}
+    <div class="day-card">
+        <h2>Day {{ day }}</h2>
+        <a href="{{ url_for('run_solution', day=day, part=1) }}" class="part-link">Part 1</a>
+        <a href="{{ url_for('run_solution', day=day, part=2) }}" class="part-link">Part 2</a>
+    </div>
+    {% endfor %}
+</body>
+</html> 

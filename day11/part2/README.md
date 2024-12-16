@@ -1,4 +1,4 @@
-# Day 11: Part 2 - [Problem Name]
+# Day 11: Part 2 
 
 ## Problem Description
 In this part, the goal was to extend the simulation to accommodate additional rules for item processing. The new rules changed how items could be moved or modified, affecting the final state.

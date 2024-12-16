@@ -1,4 +1,4 @@
-# Day 12: Part 1 - [Problem Name]
+# Day 12: Part 1 
 
 ## Problem Description
 The challenge was to analyze a sequence of movements based on input commands and determine the final position. Each command specifies a direction and distance to move.

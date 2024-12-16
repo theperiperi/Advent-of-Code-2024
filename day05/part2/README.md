@@ -1,4 +1,4 @@
-# Day 5: Part 2 - [Problem Name]
+# Day 5: Part 2 
 
 ## Problem Description
 In this part, the goal was to modify the stack operations to accommodate additional rules. The new rules changed how items could be moved between stacks, affecting the final configuration.

@@ -1,4 +1,4 @@
-# Day 16: Part 2 - [Problem Name]
+# Day 16: Part 2 
 
 ## Problem Description
 In this part, the goal was to extend the simulation to accommodate additional rules for processing. The new rules may change how operations are applied to the data structure, affecting the final state.

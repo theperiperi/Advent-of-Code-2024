@@ -1,4 +1,4 @@
-# Day 7: Part 2 - [Problem Name]
+# Day 7: Part 2 
 
 ## Problem Description
 In this part, the goal was to find the smallest directory that meets certain size criteria. This required a more detailed analysis of the directory sizes calculated in Part 1.

@@ -1,4 +1,4 @@
-# Day 1: Part 2 - [Problem Name]
+# Day 1: Part 2
 
 ## Problem Description
 In this part of the challenge, the task was to find the maximum value from the list of integers and then calculate the average of these numbers. The average is computed by dividing the total sum of the integers by the count of the integers. This requires careful handling of the input data to ensure that all values are correctly processed.

@@ -1,4 +1,4 @@
-# Day 15: Part 2 - [Problem Name]
+# Day 15: Part 2 
 
 ## Problem Description
 In this part, the goal was to extend the signal processing logic to accommodate additional criteria for evaluation. The new criteria may involve more complex relationships between signals, requiring a more sophisticated approach.

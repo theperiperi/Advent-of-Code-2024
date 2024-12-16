@@ -1,4 +1,4 @@
-# Day 4: Part 2 - [Problem Name]
+# Day 4: Part 2 
 
 ## Problem Description
 In this part, the goal was to count the number of ranges that fully contain another range. This required a more detailed comparison of the start and end points of each range.

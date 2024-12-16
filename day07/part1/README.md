@@ -1,4 +1,4 @@
-# Day 7: Part 1 - [Problem Name]
+# Day 7: Part 1 
 
 ## Problem Description
 The task was to analyze a file system structure and determine the total size of directories that meet specific criteria. The input consists of a representation of the file system, including files and directories.

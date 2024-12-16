@@ -1,4 +1,4 @@
-# Day 8: Part 2 - [Problem Name]
+# Day 8: Part 2 
 
 ## Problem Description
 In this part, the goal was to calculate a score based on the visibility of elements in the grid. The score is determined by the number of visible elements and their respective heights.

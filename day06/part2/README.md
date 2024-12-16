@@ -1,4 +1,4 @@
-# Day 6: Part 2 - [Problem Name]
+# Day 6: Part 2 
 
 ## Problem Description
 In this part, the goal was to extend the logic to find a different condition within the character sequence. The new condition typically involves a longer unique sequence.

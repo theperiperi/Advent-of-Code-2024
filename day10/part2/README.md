@@ -1,4 +1,4 @@
-# Day 10: Part 2 - [Problem Name]
+# Day 10: Part 2 
 
 ## Problem Description
 In this part, the goal was to extend the logic to calculate additional metrics based on the final state of the register. The new metrics provide further insights into the operations performed.

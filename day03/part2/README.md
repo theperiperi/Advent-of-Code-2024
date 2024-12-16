@@ -1,4 +1,4 @@
-# Day 3: Part 2 - [Problem Name]
+# Day 3: Part 2 
 
 ## Problem Description
 In this part, the task was to find the common character across multiple strings and calculate a score based on its position in the alphabet. The goal was to identify the character that appears in all strings and determine its score.

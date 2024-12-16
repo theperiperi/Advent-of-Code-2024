@@ -1,4 +1,4 @@
-# Day 2: Part 1 - [Problem Name]
+# Day 2: Part 1
 
 ## Problem Description
 The task was to determine the total score based on a series of game rounds, where each round's outcome affects the total score. The scoring system is defined by specific rules that map the outcomes to numerical values.

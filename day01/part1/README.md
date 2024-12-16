@@ -1,4 +1,4 @@
-# Day 1: Part 1 - [Problem Name]
+# Day 1: Part 1
 
 ## Problem Description
 The challenge was to calculate the sum of a list of integers provided in the input. Each integer represents a value that needs to be aggregated to produce a final result. The input is typically read from a file, and the goal is to ensure that all numbers are correctly summed, taking into account any potential formatting issues such as extra spaces or empty lines.

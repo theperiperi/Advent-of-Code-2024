@@ -1,4 +1,4 @@
-# Day 13: Part 2 - [Problem Name]
+# Day 13: Part 2 
 
 ## Problem Description
 In this part, the goal was to extend the comparison logic to accommodate additional rules for ordering. The new rules may involve more complex relationships between the elements in the pairs, requiring a more sophisticated approach to determine their order.

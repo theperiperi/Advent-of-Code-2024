@@ -1,4 +1,4 @@
-# Day 2: Part 2 - [Problem Name]
+# Day 2: Part 2
 
 ## Problem Description
 In this part, the goal was to adjust the scoring based on additional rules that modified how scores were calculated from the game rounds. The new rules introduced complexity in determining the final score.

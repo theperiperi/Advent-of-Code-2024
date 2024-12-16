@@ -1,4 +1,4 @@
-# Day 3: Part 1 - [Problem Name]
+# Day 3: Part 1 
 
 ## Problem Description
 The challenge was to analyze a set of strings and determine the most common character in each string. The goal was to identify which character appears most frequently and return that character.

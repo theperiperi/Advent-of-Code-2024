@@ -1,4 +1,4 @@
-# Day 4: Part 1 - [Problem Name]
+# Day 4: Part 1 
 
 ## Problem Description
 The challenge was to determine the number of overlapping ranges from a list of pairs. Each pair represents a range, and the goal is to count how many of these ranges overlap with each other.

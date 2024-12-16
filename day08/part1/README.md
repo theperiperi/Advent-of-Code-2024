@@ -1,4 +1,4 @@
-# Day 8: Part 1 - [Problem Name]
+# Day 8: Part 1 
 
 ## Problem Description
 The challenge was to analyze a grid of values and determine the visibility of certain elements based on their height. The goal was to count how many elements are visible from the edges of the grid.

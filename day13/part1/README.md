@@ -1,4 +1,4 @@
-# Day 13: Part 1 - [Problem Name]
+# Day 13: Part 1 
 
 ## Problem Description
 The task was to analyze a series of pairs and determine their order based on specific comparison rules. Each pair consists of two elements that need to be compared according to the defined criteria. The goal is to establish which element in each pair is considered "greater" based on the rules provided.

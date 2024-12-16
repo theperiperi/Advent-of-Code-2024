@@ -1,4 +1,4 @@
-# Day 15: Part 1 - [Problem Name]
+# Day 15: Part 1 
 
 ## Problem Description
 The task was to analyze a sequence of signals and determine the strength of each signal based on specific criteria. Each signal is represented by a value, and the goal is to compute a total strength based on the defined rules.

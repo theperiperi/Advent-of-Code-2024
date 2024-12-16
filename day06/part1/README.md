@@ -1,4 +1,4 @@
-# Day 6: Part 1 - [Problem Name]
+# Day 6: Part 1 
 
 ## Problem Description
 The challenge was to analyze a sequence of characters and determine the first position where a specific condition is met. The condition typically involves finding a unique sequence of characters.

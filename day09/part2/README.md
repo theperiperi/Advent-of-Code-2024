@@ -1,4 +1,4 @@
-# Day 9: Part 2 - [Problem Name]
+# Day 9: Part 2 
 
 ## Problem Description
 In this part, the goal was to extend the simulation to track multiple positions based on the same commands. This required maintaining the state of multiple entities moving simultaneously.

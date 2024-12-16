@@ -1,4 +1,4 @@
-# Day 9: Part 1 - [Problem Name]
+# Day 9: Part 1 
 
 ## Problem Description
 The task was to simulate a series of movements based on input commands and determine the final position. Each command specifies a direction and distance to move.

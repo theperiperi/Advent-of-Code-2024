@@ -1,4 +1,4 @@
-# Day 10: Part 1 - [Problem Name]
+# Day 10: Part 1 
 
 ## Problem Description
 The challenge was to analyze a sequence of operations and determine the final state of a register. Each operation modifies the register based on specific rules.

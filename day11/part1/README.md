@@ -1,4 +1,4 @@
-# Day 11: Part 1 - [Problem Name]
+# Day 11: Part 1 
 
 ## Problem Description
 The task was to simulate a series of operations on a collection of items and determine the final state. Each operation specifies how items should be moved or modified.

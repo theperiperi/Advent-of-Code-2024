@@ -1,4 +1,4 @@
-# Day 14: Part 2 - [Problem Name]
+# Day 14: Part 2 
 
 ## Problem Description
 In this part, the goal was to extend the simulation to accommodate additional rules for processing. The new rules may change how operations are applied to the collection, affecting the final state.

@@ -1,4 +1,4 @@
-# Day 16: Part 1 - [Problem Name]
+# Day 16: Part 1 
 
 ## Problem Description
 The challenge was to analyze a sequence of operations on a data structure and determine the final state. Each operation modifies the data structure based on specific rules.

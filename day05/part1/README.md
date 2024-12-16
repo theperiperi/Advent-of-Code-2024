@@ -1,4 +1,4 @@
-# Day 5: Part 1 - [Problem Name]
+# Day 5: Part 1 
 
 ## Problem Description
 The task was to simulate a series of operations on a stack of items and determine the final configuration. Each operation specifies how items should be moved between stacks.

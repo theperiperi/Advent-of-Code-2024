@@ -1,4 +1,4 @@
-# Day 14: Part 1 - [Problem Name]
+# Day 14: Part 1 
 
 ## Problem Description
 The challenge was to analyze a sequence of operations and determine the final state of a collection based on specific criteria. Each operation modifies the collection in a defined manner, and the goal is to compute the final state after all operations are applied.

@@ -5,23 +5,28 @@ This repository contains solutions for **Advent of Code 2024**, an annual coding
 
 ## Folder Structure
 The project is organized as follows:
+
 ```
 /parent_directory/
 ├── day01/
 │   ├── part1/
 │   │   ├── solution.py
 │   │   ├── README.md
+│   │   ├── writeup.txt
 │   ├── part2/
 │   │   ├── solution.py
 │   │   ├── README.md
+│   │   ├── writeup.txt
 │   ├── input.txt
 ├── day02/
 │   ├── part1/
 │   │   ├── solution.py
 │   │   ├── README.md
+│   │   ├── writeup.txt
 │   ├── part2/
 │   │   ├── solution.py
 │   │   ├── README.md
+│   │   ├── writeup.txt
 │   ├── input.txt
 ...
 ├── templates/
@@ -30,25 +35,17 @@ The project is organized as follows:
 ├── requirements.txt
 ```
 
-1. **Day Folders (`day01`, `day02`, ..., `day25`)**:
-   - Each day contains:
-     - `input.txt`: The puzzle input
-     - Part folders with:
-       - `solution.py`: Implementation of the solution
-       - `README.md`: Detailed explanation of the approach
+### Day Folders
+Each day contains:
+- `input.txt`: The puzzle input.
+- Part folders with:
+  - `solution.py`: Implementation of the solution.
+  - `README.md`: Detailed explanation of the approach.
+  - `writeup.txt`: Plain text version of the solution explanation.
 
-2. **`run_script.py`**:
-   - Script to run and view solutions for specific days
-   - Provides solution output and timing information
+### Usage Instructions
 
-3. **`main.py`**:
-   - Web server for accessing solution writeups
-   - Provides a browser interface to view explanations
-   - Supports navigation between different days and parts
-
-## Usage Instructions
-
-### Running Solutions
+#### Running Solutions
 
 1. **Setup**:
    ```bash
@@ -61,16 +58,16 @@ The project is organized as follows:
    ```
    
    You'll be prompted to:
-   - Enter the day number (1-25), or 'q' to quit
-   - Enter the part number (1 or 2)
+   - Enter the day number (1-25), or 'q' to quit.
+   - Enter the part number (1 or 2).
    
    The script will:
-   - Run the selected solution
-   - Display the solution output
-   - Show any error messages if they occur
-   - Display the total execution time
+   - Run the selected solution.
+   - Display the solution output.
+   - Show any error messages if they occur.
+   - Display the total execution time.
 
-### Web Interface
+#### Web Interface
 
 1. **Starting the Server**:
    ```bash
@@ -78,10 +75,10 @@ The project is organized as follows:
    ```
 
 2. **Accessing Writeups**:
-   - Open your browser and navigate to `http://localhost:8000`
-   - Browse through days and parts
-   - Read detailed solution explanations
-   - View implementation code
+   - Open your browser and navigate to `http://localhost:8000`.
+   - Browse through days and parts.
+   - Read detailed solution explanations from `writeup.txt`.
+   - View implementation code.
 
 ## Example Outputs
 
@@ -104,17 +101,17 @@ Total execution: 0.123 seconds
 ## Solution Documentation
 
 Each solution includes:
-- Problem description
-- Approach explanation
-- Implementation details
+- Problem description.
+- Approach explanation.
+- Implementation details.
 
 ## Contributing
 
 Feel free to:
-- Submit improvements to existing solutions
-- Add alternative approaches
-- Enhance documentation
-- Report issues
+- Submit improvements to existing solutions.
+- Add alternative approaches.
+- Enhance documentation.
+- Report issues.
 
 ## License
 

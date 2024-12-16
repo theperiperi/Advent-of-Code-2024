@@ -1,9 +1,10 @@
 import os
 import subprocess
+import time
 
 def run_scripts_for_day(day_number):
     """
-    Runs part1.py and part2.py for the specified day folder.
+    Runs part1.py and part2.py for the specified day folder and measures execution time.
 
     Args:
         day_number (int): The day number (1 to 25).
@@ -37,13 +38,25 @@ def run_scripts_for_day(day_number):
         print(f"Error: {part2_script} does not exist.")
         return
 
-    # Execute part1.py
-    print(f"Running {part1_script}...")
+    # Execute and time part1.py
+    print(f"\nRunning {part1_script}...")
+    start_time = time.time()
     subprocess.run(["python3", part1_script], check=True)
+    end_time = time.time()
+    part1_duration = end_time - start_time
+    print(f"Part 1 completed in {part1_duration:.3f} seconds")
 
-    # Execute part2.py
-    print(f"Running {part2_script}...")
+    # Execute and time part2.py
+    print(f"\nRunning {part2_script}...")
+    start_time = time.time()
     subprocess.run(["python3", part2_script], check=True)
+    end_time = time.time()
+    part2_duration = end_time - start_time
+    print(f"Part 2 completed in {part2_duration:.3f} seconds")
+
+    # Print total execution time
+    total_duration = part1_duration + part2_duration
+    print(f"\nTotal execution time: {total_duration:.3f} seconds")
 
 
 if __name__ == "__main__":

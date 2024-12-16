@@ -1,7 +1,7 @@
 # Advent of Code 2024 ⭐
 
 ## Introduction
-This repository contains solutions for **Advent of Code 2024**, an annual coding event featuring 25 daily programming challenges. Each day consists of two parts (`part1.py` and `part2.py`) that incrementally build on the same problem. This project provides a script (`main.py`) to efficiently run the solutions for any specific day.
+This repository contains solutions for **Advent of Code 2024**, an annual coding event featuring 25 daily programming challenges. Each day consists of two parts (`part1.py` and `part2.py`) that incrementally build on the same problem. This project provides a script (`main.py`) to efficiently run the solutions for any specific day and measure their execution times.
 
 ## Folder Structure
 The project is organized as follows:
@@ -48,9 +48,10 @@ The project is organized as follows:
      Enter the day number to run (1-25): 3
      ```
    - The script will:
-     - Locate the corresponding day folder (`day03/` in this example).
-     - Execute `part1.py` and print its output.
-     - Execute `part2.py` and print its output.
+     - Locate the corresponding day folder (`day03/` in this example)
+     - Execute and time `part1.py` and print its output
+     - Execute and time `part2.py` and print its output
+     - Display the execution time for both parts
 
 3. **Error Handling**:
    - If an invalid day number (not between 1 and 25) is entered, an error message will prompt you to try again.
@@ -62,10 +63,16 @@ For day 3:
 ```bash
 python main.py
 Enter the day number to run (1-25): 3
+
 Running day03/part1.py...
 [Output of part1]
+Part 1 completed in 0.123 seconds
+
 Running day03/part2.py...
 [Output of part2]
+Part 2 completed in 0.456 seconds
+
+Total execution time: 0.579 seconds
 ```
 
 ## License

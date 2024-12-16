@@ -53,5 +53,5 @@ def part1(puzzle_input):
             break
     return len(visited)
 
-puzzle_input = open(r'day6/input.txt', 'r').read()
+puzzle_input = open(r'day06/input.txt', 'r').read()
 print(part1(puzzle_input))

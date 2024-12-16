@@ -76,5 +76,5 @@ def part2(puzzle_input):
                 loop_positions += 1
     return loop_positions
 
-puzzle_input = open(r'day6/input.txt', 'r').read()
+puzzle_input = open(r'day06/input.txt', 'r').read()
 print(part2(puzzle_input))

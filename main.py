@@ -16,8 +16,8 @@ def run_scripts_for_day(day_number):
     # Define the parent directory containing the day folders
     parent_directory = os.path.dirname(os.path.abspath(__file__))
 
-    # Map the day number to the folder name (e.g., day1, day2, ..., day25)
-    day_folder = f"day{day_number}"
+    # Map the day number to the folder name with zero padding for single digits
+    day_folder = f"day{day_number:02d}"  # This will create day01, day02, etc.
     day_folder_path = os.path.join(parent_directory, day_folder)
 
     # Check if the folder exists

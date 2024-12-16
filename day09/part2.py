@@ -3,7 +3,7 @@ from collections import deque
 
 sys.setrecursionlimit(10**6)
 
-def part1(puzzle_input):
+def part2(puzzle_input):
     A = deque([])
     SPACE = deque([])
     file_id = 0
@@ -13,9 +13,9 @@ def part1(puzzle_input):
     # Parse input
     for i,c in enumerate(puzzle_input.strip()):
         if i%2==0:
+            A.append((pos, int(c), file_id))
             for _ in range(int(c)):
                 FINAL.append(file_id)
-                A.append((pos, 1, file_id))
                 pos += 1
             file_id += 1
         else:
@@ -38,5 +38,6 @@ def part1(puzzle_input):
     # Calculate result
     return sum(i*c for i,c in enumerate(FINAL) if c is not None)
 
-puzzle_input = open(r'day9/input.txt', 'r').read()
-print(part1(puzzle_input))
+infile = r'day09/input.txt'
+input = open(infile).read().strip()
+print(part2(input))

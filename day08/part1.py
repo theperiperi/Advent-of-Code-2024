@@ -1,4 +1,4 @@
-puzzle_input = open(r'day8/input.txt', 'r').read()
+puzzle_input = open(r'day08/input.txt', 'r').read()
 n, m = len(puzzle_input), len(puzzle_input[0])
 output = [['.' for i in range(len(puzzle_input[j]))] for j in range(len(puzzle_input))]
 

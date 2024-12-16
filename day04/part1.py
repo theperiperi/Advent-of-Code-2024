@@ -6,7 +6,7 @@ DIRECTIONS_DIAGONAL = [
 ]
 
 # Read and parse the input file into a grid of characters.
-def read_file(filepath=r"day4/input.txt"):
+def read_file(filepath=r"day04/input.txt"):
     with open(filepath, "r") as file:
         return [line.strip() for line in file]
 

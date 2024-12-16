@@ -40,5 +40,5 @@ def part2(puzzle_input):
     # Count marked positions
     return sum(row.count('#') for row in output)
 
-puzzle_input = open(r'day8/input.txt', 'r').read()
+puzzle_input = open(r'day08/input.txt', 'r').read()
 print(part2(puzzle_input))

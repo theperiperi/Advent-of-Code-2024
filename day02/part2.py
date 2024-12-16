@@ -7,5 +7,5 @@ def part2(input_file):
     # Count how many sequences are safe after removing one element from each sequence
     return sum(any(is_safe_sequence(sequence[:i] + sequence[i+1:]) for i in range(len(sequence))) for sequence in input)
 
-input_file = r"day2/input.txt"
+input_file = r"day02/input.txt"
 print(part2(input_file))

@@ -14,6 +14,6 @@ def part1(file_path):
     total = sum(int(x) * int(y) for x, y in matches)
     return total
 
-file_path = r'day3/input.txt'
+file_path = r'day03/input.txt'
 result = part1(file_path)
 print(result)

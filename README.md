@@ -7,23 +7,23 @@ This repository contains solutions for **Advent of Code 2024**, an annual coding
 The project is organized as follows:
 ```
 /parent_directory/
-├── day1/
+├── day01/
 │   ├── input.txt
 │   ├── part1.py
 │   ├── part2.py
-├── day2/
+├── day02/
 │   ├── input.txt
 │   ├── part1.py
 │   ├── part2.py
 ...
-├── day25/
+├── day025/
 │   ├── input.txt
 │   ├── part1.py
 │   ├── part2.py
 ├── main.py
 ```
 
-1. **Day Folders (`day1`, `day2`, ..., `day25`)**:
+1. **Day Folders (`day01`, `day02`, ..., `day025`)**:
    - Each folder contains:
      - `input.txt`: The puzzle input for that day.
      - `part1.py`: Solution for the first part of the puzzle.
@@ -48,7 +48,7 @@ The project is organized as follows:
      Enter the day number to run (1-25): 3
      ```
    - The script will:
-     - Locate the corresponding day folder (`day3/` in this example).
+     - Locate the corresponding day folder (`day03/` in this example).
      - Execute `part1.py` and print its output.
      - Execute `part2.py` and print its output.
 
@@ -62,9 +62,9 @@ For day 3:
 ```bash
 python main.py
 Enter the day number to run (1-25): 3
-Running day3/part1.py...
+Running day03/part1.py...
 [Output of part1]
-Running day3/part2.py...
+Running day03/part2.py...
 [Output of part2]
 ```
 

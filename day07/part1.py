@@ -40,7 +40,7 @@ def part1(input):
 
     return allTotals
 
-input_file=r'day7/input.txt'
+input_file=r'day07/input.txt'
 with open(input_file, 'r') as file:
     puzzle_input = file.read()
 

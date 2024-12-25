@@ -108,6 +108,5 @@ def part2(program):
     # Find quine input that generates program as output
     return get_best_quine_input(program, len(program) - 1, 0)
 
-# Read input and solve puzzle
 _, _, _, program = parse_input('day17/input.txt')
 print(part2(program))

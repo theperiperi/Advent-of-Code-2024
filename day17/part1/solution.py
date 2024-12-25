@@ -66,7 +66,6 @@ def part1(initial_a, initial_b, initial_c, program):
     
     return ",".join(map(str, output))
 
-# Read input and solve puzzle
 initial_a, initial_b, initial_c, program = parse_input('day17/input.txt')
 print(part1(initial_a, initial_b, initial_c, program))
 
